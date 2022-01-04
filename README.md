@@ -18,7 +18,7 @@ Besides, we decided to format all our remaining values in order to use every dat
 
 After, we started to create our model by splitting our database in two parts (training and test) and we tested it with a bunch of algorithms such as K Neighbors Classifier, Logistic regression, RandomForest. Then we compared the score of each algorithm and we sorted them decreasingly to think about it. And we decided for the next part to keep the 4 best algorithm
 
-Later, we started to search for hyperparameter with a multilayer perceptron to increase the scores of our algorithms. This was our way to make our model more accurate, and it worked. 
+Later, we started to search for hyperparameter with cross_val and GridSearch functions to increase the scores of our algorithms. This was our way to make our model more accurate, and it worked. 
 We finally had a maximum accuracy score of 0,92 with the multi-layer perceptron.
 
 
