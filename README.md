@@ -24,6 +24,14 @@ We finally had a maximum accuracy score of 0,92 with the multi-layer perceptron.
 
 
 To conclude, we created an API with Flask to enable any user to know if a chemical is biodegradable or not with the input of all the variables. 
+We personally chose to work on the PyCharm IDE since we had already installed it for previous works (if you use VS Code instead you can always test it).
+
+To launch the WebApp, create a new project in PyCharm with a virtual environment (venv) and put all the files that are in 'API' in the 'venv' directory created in your PyCharm project. Once on the project, go to the command terminal and check that you are in the venv directory, otherwise type 'cd venv' in the PyCharm terminal.
+
+Once in the directory type in the terminal 'python app.py' wait a few seconds for the server link to appear then click on it. By default the link is 'http://127.0.0.1:5000/'. 
+
+To close the WebbApp press 'crtl+c'.
+
 
 
 
